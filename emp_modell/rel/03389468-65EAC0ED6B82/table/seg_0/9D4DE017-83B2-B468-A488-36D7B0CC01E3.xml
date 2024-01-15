@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9D4DE017-83B2-B468-A488-36D7B0CC01E3" name="teachers_courses">
+<createdBy>KMult</createdBy>
+<createdTime>2024-01-14 17:06:46 UTC</createdTime>
+<generatorID>F29D46B2-DB3C-01A3-9C3E-738F6E7298BB</generatorID>
+<ownerDesignName>emp_modell</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="teacher_course_id" id="B6CFBEB4-F36B-82BA-5860-D5A32AE1BAD1">
+<createdBy>KMult</createdBy>
+<createdTime>2024-01-14 17:06:46 UTC</createdTime>
+<generatorID>5A1195E1-F205-D91D-92C3-64C5CC3E7C95</generatorID>
+<ownerDesignName>emp_modell</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="courses_course_id" id="CA6C4EE3-8B46-E417-DE07-C2A11C9147D1">
+<createdBy>KMult</createdBy>
+<createdTime>2024-01-14 17:06:46 UTC</createdTime>
+<generatorID>92A7411D-7CF7-6290-5FE4-EBDADC3D0AC0</generatorID>
+<ownerDesignName>emp_modell</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FB3BE3C2-32A1-1990-954E-A85959C74298" referredColumn="C2244DD3-A612-3D25-5C48-D62F6532576E"/>
+</associations>
+</Column>
+<Column name="teachers_teacher_id" id="81DC5679-7767-D3E5-560E-16594ECF34BF">
+<createdBy>KMult</createdBy>
+<createdTime>2024-01-14 17:06:46 UTC</createdTime>
+<generatorID>544C1275-1CE1-912D-4DD3-5C5A7BCBC5BA</generatorID>
+<ownerDesignName>emp_modell</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2AF38AC3-C3A9-A5CA-B318-DB53F340867B" referredColumn="F036C949-A67C-8249-3CA4-B3EC300602D7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D5929E55-3BD9-F680-37FB-BF07A7BB51FD" name="teachers_courses_PK">
+<createdBy>KMult</createdBy>
+<createdTime>2024-01-14 17:06:46 UTC</createdTime>
+<generatorID>8E724ED0-12F7-F6CD-A871-F9F660931FE9</generatorID>
+<ownerDesignName>emp_modell</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B6CFBEB4-F36B-82BA-5860-D5A32AE1BAD1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F969B67C-EFF5-4C1A-DC80-F76E376ABDDE" name="teachers_courses_courses_FK">
+<createdBy>KMult</createdBy>
+<createdTime>2024-01-14 17:06:46 UTC</createdTime>
+<generatorID>6842EF6F-7566-DCC3-24CE-7C3D1788BE5D</generatorID>
+<ownerDesignName>emp_modell</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CA6C4EE3-8B46-E417-DE07-C2A11C9147D1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E077C053-8248-87AA-B298-F8B6955F6AD4" name="teachers_courses_teachers_FK">
+<createdBy>KMult</createdBy>
+<createdTime>2024-01-14 17:06:46 UTC</createdTime>
+<generatorID>8D41964E-D332-0510-0240-CC19985C11B8</generatorID>
+<ownerDesignName>emp_modell</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="81DC5679-7767-D3E5-560E-16594ECF34BF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

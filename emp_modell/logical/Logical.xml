@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="B3724F41-AB07-C161-70E3-EB176CB4B7E0" mainViewID="615F2042-A81C-65F0-4247-152A904BE541">
+<createdBy>KMult</createdBy>
+<createdTime>2024-01-09 13:33:14 UTC</createdTime>
+<ownerDesignName>emp_modell</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

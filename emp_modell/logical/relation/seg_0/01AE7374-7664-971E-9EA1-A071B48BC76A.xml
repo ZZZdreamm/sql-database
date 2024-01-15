@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="group_gs" directorySegmentName="seg_0" id="01AE7374-7664-971E-9EA1-A071B48BC76A">
+<createdBy>KMult</createdBy>
+<createdTime>2024-01-09 14:14:27 UTC</createdTime>
+<ownerDesignName>emp_modell</ownerDesignName>
+<engineerTo>
+<item key="03389468-BE72-746D-AEAF-65EAC0ED6B82" value="true"/>
+</engineerTo>
+<sourcePk>63E9DA4F-0EFB-3295-132E-C9F9AF1F2BD2</sourcePk>
+<targetPk>78E8C7C8-2363-69CE-4973-43B5D61F6EAA</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5892DBE1-5E81-F961-C0C0-168BD4ECDC90</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B353F966-7D1F-72C1-CE66-2532E933FBE5</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

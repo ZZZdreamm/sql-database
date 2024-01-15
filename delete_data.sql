@@ -1,0 +1,9 @@
+DELETE FROM groups_students;
+DELETE FROM groups;
+DELETE FROM grades;
+DELETE FROM students_courses;
+DELETE FROM students;
+DELETE FROM teachers_courses;
+DELETE FROM teachers;
+DELETE FROM courses;
+DELETE FROM faculties;

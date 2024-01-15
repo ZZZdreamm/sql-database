@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F29D46B2-DB3C-01A3-9C3E-738F6E7298BB" name="teachers_courses">
+<createdBy>KMult</createdBy>
+<createdTime>2024-01-09 13:43:36 UTC</createdTime>
+<ownerDesignName>emp_modell</ownerDesignName>
+<engineerTo>
+<item key="03389468-BE72-746D-AEAF-65EAC0ED6B82" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="teacher_course_id" id="5A1195E1-F205-D91D-92C3-64C5CC3E7C95">
+<createdBy>KMult</createdBy>
+<createdTime>2024-01-09 13:43:43 UTC</createdTime>
+<ownerDesignName>emp_modell</ownerDesignName>
+<engineerTo>
+<item key="03389468-BE72-746D-AEAF-65EAC0ED6B82" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="course_id1" id="92A7411D-7CF7-6290-5FE4-EBDADC3D0AC0">
+<createdBy>KMult</createdBy>
+<createdTime>2024-01-09 14:11:48 UTC</createdTime>
+<generatorID>6842EF6F-7566-DCC3-24CE-7C3D1788BE5D</generatorID>
+<ownerDesignName>emp_modell</ownerDesignName>
+<engineerTo>
+<item key="03389468-BE72-746D-AEAF-65EAC0ED6B82" value="true"/>
+</engineerTo>
+<referedAttribute>35EA250E-15C1-130A-3756-B33AA48B2E67</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="teacher_id1" id="544C1275-1CE1-912D-4DD3-5C5A7BCBC5BA">
+<createdBy>KMult</createdBy>
+<createdTime>2024-01-09 14:12:03 UTC</createdTime>
+<generatorID>8D41964E-D332-0510-0240-CC19985C11B8</generatorID>
+<ownerDesignName>emp_modell</ownerDesignName>
+<engineerTo>
+<item key="03389468-BE72-746D-AEAF-65EAC0ED6B82" value="true"/>
+</engineerTo>
+<referedAttribute>A25CBCAC-D460-3F17-B99D-0766DDDB592C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8E724ED0-12F7-F6CD-A871-F9F660931FE9" name="teachers_courses PK">
+<createdBy>KMult</createdBy>
+<createdTime>2024-01-09 13:44:00 UTC</createdTime>
+<ownerDesignName>emp_modell</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="03389468-BE72-746D-AEAF-65EAC0ED6B82" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5A1195E1-F205-D91D-92C3-64C5CC3E7C95</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

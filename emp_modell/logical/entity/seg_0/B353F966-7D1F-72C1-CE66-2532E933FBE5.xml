@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B353F966-7D1F-72C1-CE66-2532E933FBE5" name="groups_students">
+<createdBy>KMult</createdBy>
+<createdTime>2024-01-09 13:46:09 UTC</createdTime>
+<ownerDesignName>emp_modell</ownerDesignName>
+<engineerTo>
+<item key="03389468-BE72-746D-AEAF-65EAC0ED6B82" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="group_student_id" id="B0A31C9F-004E-5D6B-4521-CBE562E772FF">
+<createdBy>KMult</createdBy>
+<createdTime>2024-01-09 13:46:29 UTC</createdTime>
+<ownerDesignName>emp_modell</ownerDesignName>
+<engineerTo>
+<item key="03389468-BE72-746D-AEAF-65EAC0ED6B82" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="student_id1" id="9FC5D3FD-BB73-0A68-FC64-EE9265F51F40">
+<createdBy>KMult</createdBy>
+<createdTime>2024-01-09 14:14:16 UTC</createdTime>
+<generatorID>AB4EF9DA-21F7-177B-0F2E-9EBE47422698</generatorID>
+<ownerDesignName>emp_modell</ownerDesignName>
+<engineerTo>
+<item key="03389468-BE72-746D-AEAF-65EAC0ED6B82" value="true"/>
+</engineerTo>
+<referedAttribute>87684938-702E-550C-C09D-F7F1F84F5A36</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="group_id1" id="3E8C986B-65AE-B26F-4D02-53862FA5B834">
+<createdBy>KMult</createdBy>
+<createdTime>2024-01-09 14:14:27 UTC</createdTime>
+<generatorID>01AE7374-7664-971E-9EA1-A071B48BC76A</generatorID>
+<ownerDesignName>emp_modell</ownerDesignName>
+<engineerTo>
+<item key="03389468-BE72-746D-AEAF-65EAC0ED6B82" value="true"/>
+</engineerTo>
+<referedAttribute>7370CACB-D541-7604-0A92-A9197E553AEA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="78E8C7C8-2363-69CE-4973-43B5D61F6EAA" name="groups_students PK">
+<createdBy>KMult</createdBy>
+<createdTime>2024-01-09 13:46:57 UTC</createdTime>
+<ownerDesignName>emp_modell</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="03389468-BE72-746D-AEAF-65EAC0ED6B82" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B0A31C9F-004E-5D6B-4521-CBE562E772FF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

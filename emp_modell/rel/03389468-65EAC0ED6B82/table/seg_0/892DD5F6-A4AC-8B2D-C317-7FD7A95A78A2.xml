@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="892DD5F6-A4AC-8B2D-C317-7FD7A95A78A2" name="teachers">
+<createdBy>KMult</createdBy>
+<createdTime>2024-01-14 17:06:46 UTC</createdTime>
+<generatorID>8A1EF0C5-FDEC-F67F-5988-D3636C5FD416</generatorID>
+<ownerDesignName>emp_modell</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="teacher_id" id="F036C949-A67C-8249-3CA4-B3EC300602D7">
+<createdBy>KMult</createdBy>
+<createdTime>2024-01-14 17:06:46 UTC</createdTime>
+<generatorID>A25CBCAC-D460-3F17-B99D-0766DDDB592C</generatorID>
+<ownerDesignName>emp_modell</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="06DB73D8-3D65-D756-33D4-5BF2CAA7B81A">
+<createdBy>KMult</createdBy>
+<createdTime>2024-01-14 17:06:46 UTC</createdTime>
+<generatorID>84323031-BAE4-FE39-9E08-2AC57B3C52F0</generatorID>
+<ownerDesignName>emp_modell</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="surname" id="2C2E20A5-4B77-76DC-EEF6-39BC10B374CD">
+<createdBy>KMult</createdBy>
+<createdTime>2024-01-14 17:06:46 UTC</createdTime>
+<generatorID>F0B9FAAE-6FDA-3034-CB88-3A00FD172801</generatorID>
+<ownerDesignName>emp_modell</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="date_employed" id="1568F402-BF87-4319-D55D-22C975488400">
+<createdBy>KMult</createdBy>
+<createdTime>2024-01-14 17:06:46 UTC</createdTime>
+<generatorID>83845CB4-F3EA-336D-CEF6-252059D7B339</generatorID>
+<ownerDesignName>emp_modell</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="faculties_faculty_id" id="0A2ABCBD-A9BE-DC21-8D77-F17615857831">
+<createdBy>KMult</createdBy>
+<createdTime>2024-01-14 17:06:46 UTC</createdTime>
+<generatorID>E60884F6-90E9-7DE5-1155-1A877E3A1BF1</generatorID>
+<ownerDesignName>emp_modell</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D4DD2A22-9EF8-3D73-D0BE-90A49D72A7C0" referredColumn="442189BC-0AD7-2E5E-9D91-96D757E4F34B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7D59335F-7B05-59D8-3750-9C7C62A26021" name="teachers_PK">
+<createdBy>KMult</createdBy>
+<createdTime>2024-01-14 17:06:46 UTC</createdTime>
+<generatorID>62DBFFA1-2621-1D09-B89E-86733D4EEADE</generatorID>
+<ownerDesignName>emp_modell</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F036C949-A67C-8249-3CA4-B3EC300602D7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8A1658E3-C7D2-736E-18EB-5A7B302F886D" name="teachers_faculties_FK">
+<createdBy>KMult</createdBy>
+<createdTime>2024-01-14 17:06:46 UTC</createdTime>
+<generatorID>1FF3A397-746F-1871-0110-AC15B7C08E5E</generatorID>
+<ownerDesignName>emp_modell</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0A2ABCBD-A9BE-DC21-8D77-F17615857831"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

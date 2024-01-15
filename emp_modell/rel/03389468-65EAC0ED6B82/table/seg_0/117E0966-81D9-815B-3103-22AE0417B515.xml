@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="117E0966-81D9-815B-3103-22AE0417B515" name="students">
+<createdBy>KMult</createdBy>
+<createdTime>2024-01-14 17:06:46 UTC</createdTime>
+<generatorID>32BE10F2-D64A-ED19-1C7A-2D3A09E066FA</generatorID>
+<ownerDesignName>emp_modell</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="student_id" id="79E93967-779F-CB20-4571-CBDD366A941C">
+<createdBy>KMult</createdBy>
+<createdTime>2024-01-14 17:06:46 UTC</createdTime>
+<generatorID>87684938-702E-550C-C09D-F7F1F84F5A36</generatorID>
+<ownerDesignName>emp_modell</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="03ADA996-C32D-960B-0C43-9F9DD31B2B22">
+<createdBy>KMult</createdBy>
+<createdTime>2024-01-14 17:06:46 UTC</createdTime>
+<generatorID>7000D0FC-7128-B811-1622-3FFCFDF562B4</generatorID>
+<ownerDesignName>emp_modell</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="surname" id="2EFAB9DC-5C95-C459-8309-2F330BED838D">
+<createdBy>KMult</createdBy>
+<createdTime>2024-01-14 17:06:46 UTC</createdTime>
+<generatorID>781605BC-AAD9-9529-C045-4A3FF5447C2D</generatorID>
+<ownerDesignName>emp_modell</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="birth_date" id="A31588B5-66DB-67A8-8FB8-9460AB3A7BBE">
+<createdBy>KMult</createdBy>
+<createdTime>2024-01-14 17:06:46 UTC</createdTime>
+<generatorID>EFC993A6-5669-19BC-96CA-B76D9FDC0996</generatorID>
+<ownerDesignName>emp_modell</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="semester" id="DED1C2BE-01FD-98E1-F1A6-D05EE9D065B2">
+<createdBy>KMult</createdBy>
+<createdTime>2024-01-14 17:06:46 UTC</createdTime>
+<generatorID>A4EAF055-FA49-79C2-5C43-CFD105BE690E</generatorID>
+<ownerDesignName>emp_modell</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="faculties_faculty_id" id="8C054A51-9AA5-6CB7-1887-7E9683F36400">
+<createdBy>KMult</createdBy>
+<createdTime>2024-01-14 17:06:46 UTC</createdTime>
+<generatorID>96B5152E-D6D8-D301-74AA-B126A7FAD2B9</generatorID>
+<ownerDesignName>emp_modell</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="213A8EA2-0B19-983F-29BF-DA566CF224B9" referredColumn="442189BC-0AD7-2E5E-9D91-96D757E4F34B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CE58B4A8-5CC7-1BCE-2D91-DA00A27A9B0C" name="students_PK">
+<createdBy>KMult</createdBy>
+<createdTime>2024-01-14 17:06:46 UTC</createdTime>
+<generatorID>2867ECFA-063C-6FAB-8C49-6E20C5CADF50</generatorID>
+<ownerDesignName>emp_modell</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="79E93967-779F-CB20-4571-CBDD366A941C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3494A6AD-2614-9B80-D3E3-891325C1F91D" name="students_faculties_FK">
+<createdBy>KMult</createdBy>
+<createdTime>2024-01-14 17:06:46 UTC</createdTime>
+<generatorID>DD10D656-4A90-91F8-EE06-3E8FAADECC85</generatorID>
+<ownerDesignName>emp_modell</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8C054A51-9AA5-6CB7-1887-7E9683F36400"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

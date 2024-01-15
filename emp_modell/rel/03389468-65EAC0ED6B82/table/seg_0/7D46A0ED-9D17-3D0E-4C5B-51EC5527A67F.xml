@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7D46A0ED-9D17-3D0E-4C5B-51EC5527A67F" name="groups_students">
+<createdBy>KMult</createdBy>
+<createdTime>2024-01-14 17:06:46 UTC</createdTime>
+<generatorID>B353F966-7D1F-72C1-CE66-2532E933FBE5</generatorID>
+<ownerDesignName>emp_modell</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="group_student_id" id="46092EF3-4ED2-8D9F-1644-236DD5B6093C">
+<createdBy>KMult</createdBy>
+<createdTime>2024-01-14 17:06:46 UTC</createdTime>
+<generatorID>B0A31C9F-004E-5D6B-4521-CBE562E772FF</generatorID>
+<ownerDesignName>emp_modell</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="students_student_id" id="DD1682F8-12C5-47ED-B88C-2F2A0835B02C">
+<createdBy>KMult</createdBy>
+<createdTime>2024-01-14 17:06:46 UTC</createdTime>
+<generatorID>9FC5D3FD-BB73-0A68-FC64-EE9265F51F40</generatorID>
+<ownerDesignName>emp_modell</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="70EADD18-3EB5-9B30-9FDE-BCD2A0671B2F" referredColumn="79E93967-779F-CB20-4571-CBDD366A941C"/>
+</associations>
+</Column>
+<Column name="groups_group_id" id="90FD9EB3-1DCA-9F63-4055-B0696FD720AA">
+<createdBy>KMult</createdBy>
+<createdTime>2024-01-14 17:06:46 UTC</createdTime>
+<generatorID>3E8C986B-65AE-B26F-4D02-53862FA5B834</generatorID>
+<ownerDesignName>emp_modell</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9A7CCB25-EB43-D049-8973-1CAB52A2BF0E" referredColumn="B5F9774A-32FB-1311-8FDE-332F611713E0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7E50B77A-7FD0-FC18-518E-781A23FFD9F1" name="groups_students_PK">
+<createdBy>KMult</createdBy>
+<createdTime>2024-01-14 17:06:46 UTC</createdTime>
+<generatorID>78E8C7C8-2363-69CE-4973-43B5D61F6EAA</generatorID>
+<ownerDesignName>emp_modell</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="46092EF3-4ED2-8D9F-1644-236DD5B6093C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B9BACA6C-001B-619F-4673-EDB4D576E4A8" name="groups_students_groups_FK">
+<createdBy>KMult</createdBy>
+<createdTime>2024-01-14 17:06:46 UTC</createdTime>
+<generatorID>01AE7374-7664-971E-9EA1-A071B48BC76A</generatorID>
+<ownerDesignName>emp_modell</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="90FD9EB3-1DCA-9F63-4055-B0696FD720AA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="683AE455-9C56-59EB-4A2D-2B15BAE217E4" name="groups_students_students_FK">
+<createdBy>KMult</createdBy>
+<createdTime>2024-01-14 17:06:46 UTC</createdTime>
+<generatorID>AB4EF9DA-21F7-177B-0F2E-9EBE47422698</generatorID>
+<ownerDesignName>emp_modell</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DD1682F8-12C5-47ED-B88C-2F2A0835B02C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="course_group" directorySegmentName="seg_0" id="0DD80350-3FDA-2F16-02B5-811B982C4D81">
+<createdBy>KMult</createdBy>
+<createdTime>2024-01-09 14:13:27 UTC</createdTime>
+<ownerDesignName>emp_modell</ownerDesignName>
+<engineerTo>
+<item key="03389468-BE72-746D-AEAF-65EAC0ED6B82" value="true"/>
+</engineerTo>
+<sourcePk>6825055B-871C-5F52-2522-5FD579931F02</sourcePk>
+<targetPk>63E9DA4F-0EFB-3295-132E-C9F9AF1F2BD2</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F6B64D3C-D52C-5688-A6D9-B94261BA05F1</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5892DBE1-5E81-F961-C0C0-168BD4ECDC90</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
